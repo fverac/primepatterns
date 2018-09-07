@@ -1,6 +1,12 @@
 import primesieve
 import numpy as np 
 
+#The following code was used to collect data on consecutive primes. Specifically, it iterated through all primes
+#under 10000000 and kept count of all instances of a prime ending in x, and the next prime ending in y.
+
+#e.g. kept count of all instances of a prime ending in 1, and the next prime ending in 3. 
+# **As well as all other digit pair combinations.
+
 
 np.set_printoptions(suppress=True)
 
